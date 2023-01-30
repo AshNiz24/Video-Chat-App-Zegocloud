@@ -11,9 +11,9 @@ class VideoChatScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ZegoUIKitPrebuiltVideoConference(
-      appID: 942029504,
+      appID: "Your App ID",
       appSign:
-          "129770b0a9654fbf54eca307375c1df61f2773c912c4116d56c7d32951bc965a",
+          "Your App Sign IN",
       conferenceID: conference_id,
       userID: user_id,
       userName: "user $user_id",
